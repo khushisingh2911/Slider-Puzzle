@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:rgb(205, 42, 189);
+    background-color: #3daed7;
+    padding: 10%;
+
+}
+
+h{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#board{
+   
+    width:360px;
+    height: 360px;
+    background-color: rgb(255, 127, 232);
+    margin: 0 auto;
+    border: 10px solid #e22db8;
+    display: flex;
+    flex-wrap: wrap;
+}
+#board img{
+    width:118px;
+    height: 118px;
+    border: 1px solid #3daed7;
+}
+footer {
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+   
+   
+    padding: 10px; 
+    text-align: center; 
+}
